@@ -4,7 +4,7 @@ source "https://rubygems.org"
 gemspec :name => "jekyll"
 
 if ENV["LIQUID_VERSION"].to_s.empty?
-  gem "liquid", "~> 5.3.0"
+  gem "liquid", "~> 5.4.0"
 else
   gem "liquid", ENV["LIQUID_VERSION"]
 end
